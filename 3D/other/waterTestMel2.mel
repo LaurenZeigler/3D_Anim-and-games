@@ -1,0 +1,31 @@
+// Create a 30x30 plane
+polyPlane -w 30 -h 30 -sx 30 -sy 30 -ax 0 1 0 -cuv 2 -ch 1;
+string $selectedPlane[] = `ls -sl`;
+string $planeShape = $selectedPlane[0] + "Shape";
+
+// Create a shading network for the noise
+string $noiseNode = `shadingNode -asTexture noise`;
+
+// Function to move vertices along their normals
+proc moveVertexAlongNormal(string $vertex, float $offset) {
+    vector $normal = `polyNormalPerVertex -q -xyz $vertex`;
+    vector $position = pointPosition($vertex);
+    vector $newPosition = $position + ($normal * $offset);
+    xform -t ($newPosition.x) ($newPosition.y) ($newPosition.z) $vertex;
+}
+
+// Animation settings
+int $maxTimeValue = 100; // Adjust as needed
+float $amplitudeValue = 5.0; // Adjust as needed
+
+// Animate the height of vertices using the noise map
+for ($time = 0; $time <= $maxTimeValue; $time++) {
+    string $vertices[] = `ls -fl ($planeShape + ".vtx[*]")`;
+    for ($vertex in $vertices) {
+        float $offset = `getAttr ($noiseNode + ".outAlpha")`;
+        moveVertexAlongNormal($vertex, $offset * $amplitudeValue);
+    }
+
+    currentTime $time;
+    refresh;
+}
