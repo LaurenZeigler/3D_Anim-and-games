@@ -1,0 +1,17 @@
+string $calculatorWindow = `window -height 300
+                                    -title "Maya Calculator"
+                                    -sizeable 1
+                                    -width 400`;
+                                    //"my_tools_ui"`;
+string $mColumn = `columnLayout -adjustableColumn 1
+                                -parent $calculatorWindow`;
+button -parent $mColumn -label "button1" -command "print (\"button1 pressed\")";
+button -parent $mColumn -label "button2" -command "print (\"button1 pressed\")";
+
+showWindow $calculatorWindow;
+
+
+/* string $buttonLabels[] = {"7", "8", "9", "/",
+                          "4", "5", "6", "*",
+                          "1", "2", "3", "-",
+                          "C", "0", "=", "+"}; */ 
