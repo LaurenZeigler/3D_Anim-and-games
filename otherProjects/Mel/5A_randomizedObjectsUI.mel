@@ -1,0 +1,117 @@
+// Declaration of global variable at the global scope (not recommended)
+global string $selectedObjects[]; // This can't be initialized with 'ls -selection'
+
+// A function or procedure that initializes the global variable
+global proc initializeSelectedObjects() {
+    // This is a valid way to initialize the global variable
+    $selectedObjects = `ls -selection`;
+}
+
+// Call the function to initialize the global variable
+initializeSelectedObjects();
+
+// Check if there are selected objects
+if (size($selectedObjects) > 0) {
+    // Set the first selected object as myNode
+    string $myNode = $selectedObjects[0];
+
+    // Create the window
+    if (`window -exists myWindow`) {
+        deleteUI myWindow;
+    }
+    window -title "Object Randomizer" myWindow ;
+
+    columnLayout -adjustableColumn true;
+
+    text -label "\nonly one object may be randomized\nat a time with this UI window currently.\nMake sure to have an object selected.\n";
+    separator;
+
+    //
+    // X, Y, and Z for random area
+    text -label "X area:";
+    floatField -minValue -0 -maxValue 500 -value 0.0 -precision 2 xField;
+
+    text -label "Y area:";
+    floatField -minValue -0 -maxValue 500 -value 0.0 -precision 2 yField;
+
+    text -label "Z area:";
+    floatField -minValue -0 -maxValue 500 -value 0.0 -precision 2 zField;
+    text -label "side note: I'll figure out how to make\nthese into sliders at a later date.\n";
+    //
+    // Label text for "Amount of Objects"
+    text -label "Amount of Objects:";
+    intField -minValue 1 -maxValue 1000 -value 1 objectAmount;
+
+    // Button to create the randomized area
+    button -label "Create Randomized Area" -command "createRandomizedArea();";
+
+    // Button to reset values
+    button -label "Reset Values" -command "resetValues();";
+
+    //
+    // Show the window
+    showWindow myWindow;
+
+    //
+    // Create variables for values
+    float $xValue;
+    float $yValue;
+    float $zValue;
+    int $objectAmount;
+
+    // set Values in variables
+    $xValue = `floatField -q -value xField`;
+    $yValue = `floatField -q -value yField`;
+    $zValue = `floatField -q -value zField`;
+    $objectAmount = `intField -q -value objectAmount`;  // Renamed variable
+} else {
+    warning("No objects selected in the scene. Please select an object to use as myNode.");
+}
+
+global proc setFieldsFromSlider() {
+    // Get the value from the float slider
+    float $sliderValue = `floatSliderGrp -q -value slider`;
+
+    // Set the values of the float fields
+    floatField -edit -value $sliderValue xField;
+    floatField -edit -value $sliderValue yField;
+    floatField -edit -value $sliderValue zField;
+}
+
+global proc createRandomizedArea() {
+    // Get the values of the fields
+    float $xValue = `floatField -q -value xField`;
+    float $yValue = `floatField -q -value yField`;
+    float $zValue = `floatField -q -value zField`;
+    int $objectAmount = `intField -q -value objectAmount`;
+
+    // Get the currently selected objects
+    string $selectedObjects[] = `ls -selection`;
+
+    // Check if there are selected objects and valid values
+    if (size($selectedObjects) > 0 && $objectAmount > 0) {
+        string $group = `group -em -name "RandomizedObjects" $selectedObjects[0]`;
+        for ($i = 0; $i < $objectAmount; $i++) {
+            // Duplicate the selected objects
+            string $duplicatedObjects[] = `duplicate $selectedObjects`;
+
+            // Randomly position the duplicated objects within the specified area
+            float $randomX = rand(-$xValue, $xValue);
+            float $randomY = rand(-$yValue, $yValue);
+            float $randomZ = rand(-$zValue, $zValue);
+            move $randomX $randomY $randomZ $duplicatedObjects;
+
+            // Parent the duplicated objects to the group
+            parent $duplicatedObjects[0] $group;
+        }
+    } else {
+        warning("Please select objects to duplicate and specify a valid 'Amount of Objects'.");
+    }
+}
+
+global proc resetValues() {
+    floatField -edit -value 0.0 xField;
+    floatField -edit -value 0.0 yField;
+    floatField -edit -value 0.0 zField;
+    intField -edit -value 1 objectAmount;
+}
