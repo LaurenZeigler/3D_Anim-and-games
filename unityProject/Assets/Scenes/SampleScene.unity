@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: eea0225bce23be14ab68ac7f16beaf4e, type: 2}
 --- !u!1 &168449625
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,11 +204,11 @@ GameObject:
   - component: {fileID: 597590949}
   - component: {fileID: 597590948}
   m_Layer: 0
-  m_Name: pane
+  m_Name: plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &597590948
 MeshCollider:
