@@ -1,14 +1,5 @@
-// Declaration of global variable at the global scope (not recommended)
-global string $selectedObjects[]; // This can't be initialized with 'ls -selection'
 
-// A function or procedure that initializes the global variable
-global proc initializeSelectedObjects() {
-    // This is a valid way to initialize the global variable
-    $selectedObjects = `ls -selection`;
-}
-
-// Call the function to initialize the global variable
-initializeSelectedObjects();
+$selectedObjects = `ls -selection`;
 
 // Check if there are selected objects
 if (size($selectedObjects) > 0) {
