@@ -1,0 +1,6 @@
+[submodule "unity_projects/TestingGrounds/Assets/Tools"]
+	path = unity_projects/TestingGrounds/Assets/Tools
+	url = https://github.com/LaurenZeigler/ArtisanDream.Tools
+[submodule "unity_projects/HamsterHearth/Assets/Tools"]
+	path = unity_projects/HamsterHearth/Assets/Tools
+	url = https://github.com/LaurenZeigler/ArtisanDream.Tools
