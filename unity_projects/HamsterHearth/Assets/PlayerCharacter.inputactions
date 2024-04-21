@@ -1,0 +1,45 @@
+{
+    "name": "PlayerCharacter",
+    "maps": [
+        {
+            "name": "Land",
+            "id": "86bcaede-4e62-4acb-bbda-7e05f88a0f55",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "3b6dadf4-d4a3-494d-891a-741c1f62d028",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9be28c7a-625d-48b3-af56-93f86d121cf8",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d56d6e0f-394f-4ead-ad92-a50fa0ab0e00",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
