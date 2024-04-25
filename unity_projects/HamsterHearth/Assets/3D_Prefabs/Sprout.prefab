@@ -13,7 +13,11 @@ GameObject:
   - component: {fileID: 1321665850381912690}
   m_Layer: 0
   m_Name: Sprout
+<<<<<<< HEAD
+  m_TagString: sprout
+=======
   m_TagString: Untagged
+>>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
