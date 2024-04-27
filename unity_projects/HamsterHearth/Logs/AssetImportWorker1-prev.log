@@ -1,20 +1,31 @@
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 7778 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Wren/Desktop/3D_Anim-and-games/unity_projects/HamsterHearth
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
+54987
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth
+=======
 <<<<<<< HEAD
 64625
 =======
@@ -22,6 +33,7 @@ Logs/AssetImportWorker1.log
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
 Successfully changed project path to: C:/Users/Wren/Desktop/3D_Anim-and-games/unity_projects/HamsterHearth
 C:/Users/Wren/Desktop/3D_Anim-and-games/unity_projects/HamsterHearth
+>>>>>>> main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -52,7 +64,18 @@ C:/Users/Wren/Desktop/3D_Anim-and-games/unity_projects/HamsterHearth
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+Player connection [13476] Host "[IP] 192.168.182.95 [Port] 0 [Flags] 2 [Guid] 1875500755 [EditorId] 1875500755 [Version] 1048832 [Id] WindowsEditor(7,Ursula) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13476] Host "[IP] 192.168.182.95 [Port] 0 [Flags] 2 [Guid] 1875500755 [EditorId] 1875500755 [Version] 1048832 [Id] WindowsEditor(7,Ursula) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 47.11 ms, found 3 plugins.
+=======
 <<<<<<< HEAD
 Player connection [17668] Host "[IP] 10.0.0.9 [Port] 0 [Flags] 2 [Guid] 3713015587 [EditorId] 3713015587 [Version] 1048832 [Id] WindowsEditor(7,Ursula) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -68,11 +91,12 @@ Player connection [3344] Host "[IP] 10.0.0.9 [Port] 0 [Flags] 2 [Guid] 514832424
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Refreshing native plugins compatible for Editor in 32.88 ms, found 3 plugins.
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.15f1 (b58023a2b463)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Wren/Desktop/3D_Anim-and-games/unity_projects/HamsterHearth/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a5a)
@@ -80,6 +104,12 @@ Direct3D:
     VRAM:     3889 MB
     Driver:   31.0.101.2125
 Initialize mono
+<<<<<<< HEAD
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+=======
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
@@ -88,8 +118,25 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
+>>>>>>> main
 Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
+<<<<<<< HEAD
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.024767 seconds.
+- Loaded All Assemblies, in  3.587 seconds
+=======
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 <<<<<<< HEAD
@@ -100,8 +147,18 @@ Registered in 0.007476 seconds.
 - Loaded All Assemblies, in  0.707 seconds
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
 Native extension for WindowsStandalone target not found
+>>>>>>> main
 Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2464 ms
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  5.119 seconds
+Domain Reload Profiling: 8696ms
+	BeginReloadAssembly (1181ms)
+=======
 <<<<<<< HEAD
 - Finished resetting the current domain, in  1.049 seconds
 Domain Reload Profiling: 18655ms
@@ -111,10 +168,19 @@ Domain Reload Profiling: 18655ms
 Domain Reload Profiling: 1484ms
 	BeginReloadAssembly (271ms)
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
+>>>>>>> main
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (706ms)
+	RebuildNativeTypeToScriptingClass (133ms)
+	initialDomainReloadingComplete (359ms)
+	LoadAllAssembliesAndSetupDomain (1195ms)
+		LoadAssemblies (1145ms)
+=======
 		CreateAndSetChildDomain (2ms)
 <<<<<<< HEAD
 	RebuildCommonClasses (1258ms)
@@ -122,17 +188,25 @@ Domain Reload Profiling: 1484ms
 	initialDomainReloadingComplete (129ms)
 	LoadAllAssembliesAndSetupDomain (3049ms)
 		LoadAssemblies (13141ms)
+>>>>>>> main
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3046ms)
-			TypeCache.Refresh (3042ms)
-				TypeCache.ScanAssembly (2298ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1050ms)
+		AnalyzeDomain (1182ms)
+			TypeCache.Refresh (1175ms)
+				TypeCache.ScanAssembly (1093ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (5121ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (916ms)
+		SetupLoadedEditorAssemblies (4802ms)
 			LogAssemblyErrors (0ms)
+<<<<<<< HEAD
+			InitializePlatformSupportModulesInManaged (3249ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (1237ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+=======
 			InitializePlatformSupportModulesInManaged (507ms)
 			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
@@ -163,13 +237,31 @@ Domain Reload Profiling: 1484ms
 			ProcessInitializeOnLoadAttributes (436ms)
 			ProcessInitializeOnLoadMethodAttributes (162ms)
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
+>>>>>>> main
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  6.499 seconds
+Refreshing native plugins compatible for Editor in 28.33 ms, found 3 plugins.
+=======
 <<<<<<< HEAD
 - Loaded All Assemblies, in 11.811 seconds
 Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
@@ -178,15 +270,22 @@ Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
 Refreshing native plugins compatible for Editor in 16.75 ms, found 3 plugins.
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
 Native extension for WindowsStandalone target not found
+>>>>>>> main
 Native extension for Android target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
+Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
+- Finished resetting the current domain, in  4.884 seconds
+Domain Reload Profiling: 11372ms
+	BeginReloadAssembly (2580ms)
+=======
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -194,27 +293,35 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  1.337 seconds
 Domain Reload Profiling: 13146ms
 	BeginReloadAssembly (271ms)
+>>>>>>> main
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (43ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (11411ms)
-		LoadAssemblies (10430ms)
+		CreateAndSetChildDomain (164ms)
+	RebuildCommonClasses (283ms)
+	RebuildNativeTypeToScriptingClass (122ms)
+	initialDomainReloadingComplete (221ms)
+	LoadAllAssembliesAndSetupDomain (3278ms)
+		LoadAssemblies (2333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1157ms)
-			TypeCache.Refresh (1074ms)
-				TypeCache.ScanAssembly (941ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (52ms)
-	FinalizeReload (1338ms)
+		AnalyzeDomain (1698ms)
+			TypeCache.Refresh (1547ms)
+				TypeCache.ScanAssembly (1457ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (4888ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1002ms)
+		SetupLoadedEditorAssemblies (2964ms)
 			LogAssemblyErrors (0ms)
+<<<<<<< HEAD
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (26ms)
+			BeforeProcessingInitializeOnLoad (361ms)
+			ProcessInitializeOnLoadAttributes (2290ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+=======
 			InitializePlatformSupportModulesInManaged (50ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
@@ -838,12 +945,123 @@ Domain Reload Profiling: 5153ms
 			BeforeProcessingInitializeOnLoad (396ms)
 			ProcessInitializeOnLoadAttributes (1876ms)
 			ProcessInitializeOnLoadMethodAttributes (91ms)
+>>>>>>> main
 			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 24.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3837 unused Assets / (3.3 MB). Loaded Objects now: 4407.
+Memory consumption went from 111.6 MB to 108.4 MB.
+Total: 30.025200 ms (FindLiveObjects: 1.519500 ms CreateObjectMapping: 1.586600 ms MarkObjects: 20.194000 ms  DeleteObjects: 6.721000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 477864.149178 seconds.
+  path: Assets/3D_Prefabs/bush.prefab
+  artifactKey: Guid(fa851484212d37f46a625c02a37d00ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Prefabs/bush.prefab using Guid(fa851484212d37f46a625c02a37d00ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae30b7673202c0678f280ca08fe61f74') in 1.9716868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/3D_Prefabs/Garden.prefab
+  artifactKey: Guid(f14ca73de4fd3f74597c9107c03d84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Prefabs/Garden.prefab using Guid(f14ca73de4fd3f74597c9107c03d84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2159b26f2589ac9cba71d36d009d6228') in 0.8483055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/3D_Prefabs/Capsule.prefab
+  artifactKey: Guid(1228183c124a857468cf908b933a3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Prefabs/Capsule.prefab using Guid(1228183c124a857468cf908b933a3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ed351c796c09cdd09f4626317939e17') in 2.2609125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/3D_Prefabs/Fence.prefab
+  artifactKey: Guid(71bfbbbca983e704ba0771c20f0c904b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Prefabs/Fence.prefab using Guid(71bfbbbca983e704ba0771c20f0c904b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6de21ed8181f8290a7ac8a8b850e386') in 0.9081412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/3D_Prefabs/Sprout.prefab
+  artifactKey: Guid(23c8d40d4600163468fac4a2b4a9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D_Prefabs/Sprout.prefab using Guid(23c8d40d4600163468fac4a2b4a9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '621b41e42b38a73f64e2f6df82bd526c') in 1.5004805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.266 seconds
+Refreshing native plugins compatible for Editor in 17.57 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.082 seconds
+Domain Reload Profiling: 6349ms
+	BeginReloadAssembly (687ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (237ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (2325ms)
+		LoadAssemblies (1776ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (857ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (758ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (1797ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (39ms)
-Refreshing native plugins compatible for Editor in 36.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+<<<<<<< HEAD
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (0.9 MB). Loaded Objects now: 4418.
+Memory consumption went from 109.5 MB to 108.5 MB.
+Total: 20.617300 ms (FindLiveObjects: 1.931200 ms CreateObjectMapping: 1.025700 ms MarkObjects: 13.885700 ms  DeleteObjects: 3.767200 ms)
+=======
 Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 47 unused Assets / (43.4 KB). Loaded Objects now: 4241.
 Memory consumption went from 148.7 MB to 148.6 MB.
@@ -1306,188 +1524,582 @@ Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 4218.
 Memory consumption went from 153.1 MB to 153.1 MB.
 Total: 16.669600 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.377800 ms MarkObjects: 14.855700 ms  DeleteObjects: 0.798900 ms)
 >>>>>>> e22c97ab1dab4a4620afba3665e6d1c7a803de14
+>>>>>>> main
 
 Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 1150eb51c05593687cec797198322127 -> e01178f95f004e443ecc6be735b80782
-  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 24fe139ec7f5e44901b86f800f9a06d2 -> 9fdeb51f65c156710043d64abe7f6c17
-  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: 94f9a4b51cd5b8885b8c6af0b00f6522 -> bba5ce8de65ef060088c35c200a4b895
-  custom:scripting/monoscript/fileName/OnBoostUnit.cs: a7e6d2276f2afaeafba7fae170a75846 -> f2c8b1f521498c0eaae8b328022cc8d8
-  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: 5e1d7de2db116b8f243f3513cf001799 -> b9c4260dcf3a0c26bdad88dabffd4df1
-  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: 473b5550df1c645f8347d53fb20c9e84 -> e9dfc62c07420e2aed8ef130e18c48ad
-  custom:scripting/monoscript/fileName/GetPerformanceModeUnit.cs: 3aa6fd215b22cab00c1e9e21261b8133 -> 6d02ef7c817084b196485a0497c095c5
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: 894cbdcbd0acba3dcbe0bc5cb03aa4fc -> 1b51348cf49cef3dfd9312ea99976a71
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: dadb85f9f94d52cc4c70fc85555568e4 -> 7b6f9d01e651e554be222f57047cbb62
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: c450dfa74fecb5975cb56b0b4544184d -> f4a7c6cfae9c372edccf6d6cc88076e6
-  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 0c297c0236ea83d8457c706462d6897f -> 32462f311b4dbf5f2b05ab0d66d59fce
-  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: d2d749bf95e324ac9f4b995def19719b -> baebdabc6ff1eea002d6134d7cc640d5
-  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: a7bf983558f00768a2bfff4466c44186 -> 2c0e6586aa08edcf34a9b530e6d5b653
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 5075416d6d4a5a110f72051588d2c63d -> 101c45f7bb024cc56f4426e2a0a62d0f
-  custom:scripting/monoscript/fileName/ClusterInfo.cs: 34da7ab6cad78526ad74a7a3b6946a62 -> 3ea6b052a690a346ccea6ba5711ec6da
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: f2c12c11e888ea0127c6e73d636e647d -> eb60094d4168727d51b5ad64f934effb
-  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: d4811f796531e7d9d1870afcc5da257b -> 50fd0f46d158c4bf3e73bb0fb276aa7d
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: 487921357f85c5010f69a9d432a5b1c7 -> eb0863d50308d5ecbbdb8fd4db067702
-  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: 2f011c3c38189c79535c7bc76591d47d -> b8bf648d78d2100b583584788c62b506
-  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: acdceabf7c9060969c36d4bec84ecada -> 592abebb381c23cb1825771e41be316b
-  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: 41dddb8387427e7a171f50b3a0fb391a -> 25f4b63f26c9cb50ec100e9406a7fa53
-  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 86b2e4dc9c63528f9be5477b8f5b772d -> 9ee9780b0a9a9c54102984e50c1de333
-  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: 35ba0a19b333147361929034617c2e82 -> a9ecebdd72039dab428c58919ca0c9ea
-  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 87c120adde43f5730cef290c93bd01dc -> 0e469edb6ab0c74b06a72ae4424df42d
-  custom:scripting/monoscript/fileName/FPSUnit.cs: bb4da2c3f5031ff77174c9da43690bc4 -> 22e770cfd34271d89468f0cdb4f9264b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: 6ab57e6ef3ea0aeef8b5cc4ddf25f01f -> b55ce1ac25e5b5f0cf6d47ccd6996652
-  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: df4cefabe85fef017ddf3011ad0209a2 -> e721f49f2e73789f28415411cd6a73c8
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: 299e10d0e326d160ace6046c8270fcd0 -> 34ead2fac85a7687e9b2b4e7c479eda7
-  custom:scripting/monoscript/fileName/GpuTime.cs: 14b260d61a3863889459f37058bbfa3d -> 408c5168fe38d6572480f188856d150f
-  custom:scripting/monoscript/fileName/BuildHook.cs: e0ffff0c29e5c77c18a121ff983f6c30 -> eb8fc481713b0427c8c6d6ba46f7eab2
-  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: b8d25490bcb85a58053ca0eef7e2a87a -> 30b00f6fd9acb9931abb13cef51abbae
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 8754a3116c8a5b045ce5979a2ccd56c7 -> 3753b07006e7580366a60035a64414d9
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: e5271255f6ce3b1732668772d58e98d0 -> a1ed3ae1cb8da01d5316326e7ceeafe2
-  custom:scripting/monoscript/fileName/AdaptivePerformanceUsageAnalyticsArgs.cs: e09891322ad40da7ff7ba0217db4f7cf -> ce5bff753ea9b7b0c8c3e2aec9d83031
-  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 141a53d0445b8bb74527219726f7b32e -> 2e1b1a28a3a4d013ffe5d37ba564cfab
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: a2881d8c22da5fc9089af7bb3887f193 -> b6d94f8b5a7e785e5b36f4c9c4b45abf
-  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: bdb1960c16d8f4a52a5b341a02307a7c -> 734ab774cfa8bdd770aa1ad4b4acea51
-  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: 340c912bc6d4b7d94574cae2810cc3f7 -> bf27f9c2759a33eeac333926103f3b93
-  custom:scripting/monoscript/fileName/CpuTime.cs: 6efbb8dad5faa8a3d4b4c537529c42f9 -> adb828938d2352b1f8f58c79f7cce5fa
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 42229e5b7fdeccfe096141039253e995 -> 303baca7b4d0e33e2861ec4e66796379
-  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: e686d16aff7cbe164f9c5ccde9434be2 -> 63196f4a76fb8885675854009c698aa1
-  custom:scripting/monoscript/fileName/EnterNamePopup.cs: 9d3f246404b65d2eec9cb4602d3f4c60 -> da7760c1c128bb94a9676f14076ea6d5
-  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: 5ca8f42acb33687bb86b1fd5446af828 -> 669716655f8b46b426a27eb7c604a17a
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: 10121a330c4fde6d8fbcf37ebb6594c5 -> db38478e42c3c516a42d537cacb52a98
-  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 705e9924000ed7c768c2c3acb5c8a206 -> 1cceb99366a0e9d205eaa5b4dd9b2134
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 3da0e4b71dbd942726e849daa4e48a8a -> 512e1b7598086c090b2ecf38d8f0c4c0
-  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: 1dc0ce17ce91043a844dbe01a4110d50 -> d09ad89f9844aeadfaf68b73b37be5d1
-  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 217b3d17a4102e8db18a0a570e1b9d46 -> 55096fe0e1c54ec36986062f3aa7a66f
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalyticsEvent.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: 9043b72f4ce6c44f4e87feb84e647033 -> 6c0015e9d427cf3004d3259807419688
-  custom:scripting/monoscript/fileName/OnPerformanceModeUnit.cs: 18da80b3392df5d273585279365ec593 -> bf4fa896075cd04ceae76bda8b75745c
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: 4df3b89e168d256d7a519bc5ffc00c30 -> fa57e8a0aacf6756eba14595999551ab
-  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 1de0feafa9ad6ac5ca39b0321e236e14 -> 0a3d542b329c158a69b5de36364d00a2
-  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: 68fa61aacf22cda3d61ab05ecb48b2b1 -> b61c78895eb679caa4bb47a966bb5aef
-  custom:scripting/monoscript/fileName/GetBoostUnit.cs: 2842248d8b44ab1fc8d1d62294731499 -> 50bdb9e86fe58514ab4fd42288577925
-  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: bd92895c14eb2fb14021a6e63b2261a4 -> 2d8fe703b616f9efca324b5f5d0693d4
-  custom:scripting/monoscript/fileName/RunningAverage.cs: efa08c557f7550f9645b98ae541fa9c6 -> 73c6f2d5c68af1b5c3d611550831b24a
-  custom:scripting/monoscript/fileName/TemperatureTrend.cs: 4149c5bdec7148238aa3130064969f44 -> 53ab772a6edbd764646698358643fc6a
-  custom:scripting/monoscript/fileName/AdaptivePerformanceEditorAnalyticsEvent.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: 469d25db8b2228d986105fb7419bc89b -> f0bedcaa337b2fb4d2cd753fe8b8a7c3
-  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: c0cf1ec90a43bb5cf5ee11e1a6e16d73 -> 76ef3a5109c797e5b4123cf0916ee941
-  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: 95b6d861d2dda360aee783474cd3f479 -> 495fc0ebd3fe0c60ec5bbc678c07d4fd
-  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: 5fc57c2fcfb7dafe38d239dde019cc42 -> 8049ea67cb6e6367c9a9f680d775ec81
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 91f4b72084883232cd99f10ebb67b402 -> 6e05472e3aa9b850c8ea0609207dafac
-  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: fe5000846530fe0fce50389457af7294 -> dc1e444c6d55b3262a0d030c61434b46
-  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: 508b039a497dce8fb71f35f6fc34d9a4 -> 1fc0e6664d44619270043683a6bf4ee8
-  custom:scripting/monoscript/fileName/IPerformanceModeStatus.cs: 83c98c5a4039c0c7a47884eca5a22747 -> fbf493dcfc1007c7b566ce7641778ed8
-  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: 71e89660588a56388a5e617bc333fb1d -> 923bdfa942436eee828e303c46d5c94e
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: f5775d854b65570e02c12d7c0eb97cdc -> d16f7aecee713227bd2d755390b90894
-  custom:scripting/monoscript/fileName/BuildHelpers.cs: 70182e0f64681eef7d702bfc01316dc2 -> 66f11d48a2b9256936f98d607c04d91b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: 369b02c36067e2bdfd8977d166b95d6a -> bff70e7133f1024d7c0d83fe00ad5463
-  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: 2cc3f33285841f1aa78922ad52464e75 -> bb154de462b8cf6d56edde132643136f
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: f663aaf71e65f2fe22a009d0dd391d62 -> 7a99be165b9b521508ea7bbcbb274efd
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: e77b0a1aa9a65dc03e4b8f89455affa5 -> 58401cdfa1bce795e546f759c8906927
-  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: a3fbe460424d8e95e529a23865943015 -> 281524d97345598bac46fa6afde08878
-  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: d7d5b42bea75805b35790acb4ee300af -> a2318c73fa2835eae77d73ec0efcb17b
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 94b77eb9d5244fda90bec0b332880965 -> 90396bfdbde11e24b78d89546aa009e4
-  custom:scripting/monoscript/fileName/EditorUtilities.cs: b95b19d5c3f86ed5a8861be3c628cd62 -> dfc4edacd1bf129cb247f3ec2bc58338
-  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: f30c7fc4279ace36f096925e71fb90d0 -> 95a323f07da62ef59bc81dad0f0e4bc2
-  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: dc5607d80e9e6e84da9b9325bc8729f3 -> 224690b5dece539896740a0a0a3e56a8
-  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalyticsConstants.cs: 1bf5e5ea926893237a21c8dbd036f39b -> 6888d37c3333b25e57b6b7b87fb0a63c
-  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 999ffa7a0a9a3e3a03a2aeed98d53a1e -> 02442e2d355507e81c87cf7e3f19bf35
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: fc7293dfd77e40e6f8d0b4f2e84b9613 -> 9b55fa20133fbff5129037066bc3fb16
-  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 049728c82d3f118cf4522a0559fa25fe -> 0056cefbfd4d7555e0a992a4901b0669
-  custom:scripting/monoscript/fileName/AdaptiveLut.cs: cf6088aad82196bee4bf9cc0b7c9c21e -> 2da68acd34b47d72ca32efa07a0d3c7f
-  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: 7f6f67522af68d0ec2847010e4b437ba -> 492efb7d23549bc1cf98a01073a37eee
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/UsageDial.cs: b4c4219a0292b97f8c5fd6a57d6a9bc6 -> 0600240de106b1ae286f73dcd509b819
-  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 11adce74e47b70d28e0ecdf16679f86e -> 54d5546f17681ea22d5ca758b2212dee
-  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 27f5d75ae02f2b0346a6926b6751759d -> 99d9ff614bcb5ba41c8ce2c5ccf0b4d8
-  custom:scripting/monoscript/fileName/SetBoostUnit.cs: cf29b7554af699e267dd31fd654d9632 -> c14e3f94f958974f3a18a3621f45e205
-  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: 94294a86782d7219502515551136817e -> 6245d879f3f7acd89c3d9d7dbc899eea
-  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 90dedb3c6596f767d710bfa87018a415 -> 7f97c5ae33eecb599b040e357d157fbe
-  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: 570656a283e06268c4e146e28d864312 -> f39513fbfcd176ae0aae0bac66771f72
-  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: dde359c946e19fc894c18ce1a12eac34 -> 266eeb23e39c89761110b73324af6e62
-  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: ee8329e99736343aafa62db495999a76 -> 081b6445024203ac9cac053152708458
-  custom:scripting/monoscript/fileName/IThermalStatus.cs: 2528ab93665e7b4e2a5218c7a56bc99c -> 192007087d4968ae687c5e371b74a175
-  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: f0b7aaa4737894d86f27036f1154cc74 -> d9c7a4e898c60b7ca344cda42eeee3ce
 ========================================================================
-Received Import Request.
-  Time since last request: 380482.557868 seconds.
-  path: Assets/3D_Prefabs/crop.prefab
-  artifactKey: Guid(dc9c8fb6d87718843bcd9792867aba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Prefabs/crop.prefab using Guid(dc9c8fb6d87718843bcd9792867aba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a72fbc6a34ed7a6f929cde62b175a3d') in 1.676134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.749 seconds
+Refreshing native plugins compatible for Editor in 13.41 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.213 seconds
+Domain Reload Profiling: 3959ms
+	BeginReloadAssembly (513ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (994ms)
+		LoadAssemblies (921ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (325ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2214ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (61ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (1118ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 8.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.5 MB). Loaded Objects now: 4418.
+Memory consumption went from 111.4 MB to 109.9 MB.
+Total: 13.596700 ms (FindLiveObjects: 0.856800 ms CreateObjectMapping: 0.948000 ms MarkObjects: 8.378900 ms  DeleteObjects: 3.409300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Images/UIcircle.png
-  artifactKey: Guid(33cbe27be0985ad498b2d9f5e97ecad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/UIcircle.png using Guid(33cbe27be0985ad498b2d9f5e97ecad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55169ada67d8292f1f8b64f2b0bb7e02') in 0.341717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.463 seconds
+Refreshing native plugins compatible for Editor in 14.24 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.999 seconds
+Domain Reload Profiling: 3460ms
+	BeginReloadAssembly (462ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (807ms)
+		LoadAssemblies (759ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (284ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (1065ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 18.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.5 MB). Loaded Objects now: 4418.
+Memory consumption went from 113.3 MB to 111.9 MB.
+Total: 19.296600 ms (FindLiveObjects: 0.973000 ms CreateObjectMapping: 0.944700 ms MarkObjects: 14.439000 ms  DeleteObjects: 2.937600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Images/New Material.mat
-  artifactKey: Guid(3ea60e8915c6fce4abb2eaeeeb15e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/New Material.mat using Guid(3ea60e8915c6fce4abb2eaeeeb15e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1259ab377c6d0dc6c62e526862cdc97') in 1.292740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.636 seconds
+Refreshing native plugins compatible for Editor in 11.90 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.023 seconds
+Domain Reload Profiling: 3658ms
+	BeginReloadAssembly (536ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (865ms)
+		LoadAssemblies (804ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (350ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (311ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1061ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 8.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.5 MB). Loaded Objects now: 4418.
+Memory consumption went from 115.3 MB to 113.8 MB.
+Total: 12.490100 ms (FindLiveObjects: 0.741500 ms CreateObjectMapping: 0.641600 ms MarkObjects: 8.229700 ms  DeleteObjects: 2.874800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/3D_Prefabs/Hamster_NPC.prefab
-  artifactKey: Guid(01a723622b3fde0458dd758146220580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Prefabs/Hamster_NPC.prefab using Guid(01a723622b3fde0458dd758146220580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13511805d9f525fcc7d23243c9c4560b') in 0.486735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 164
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.607 seconds
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.210 seconds
+Domain Reload Profiling: 3815ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (920ms)
+		LoadAssemblies (811ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (333ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (24ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (1080ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 9.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (0.9 MB). Loaded Objects now: 4418.
+Memory consumption went from 117.2 MB to 116.3 MB.
+Total: 12.758800 ms (FindLiveObjects: 0.691100 ms CreateObjectMapping: 0.725200 ms MarkObjects: 8.992000 ms  DeleteObjects: 2.347600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/3D_Prefabs/Player.prefab
-  artifactKey: Guid(747572828675b7740b7c761a5ff56278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Prefabs/Player.prefab using Guid(747572828675b7740b7c761a5ff56278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1383c34164a85c37e59be05dba5f0c12') in 0.715171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 220
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.662 seconds
+Refreshing native plugins compatible for Editor in 9.76 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.194 seconds
+Domain Reload Profiling: 3856ms
+	BeginReloadAssembly (537ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (129ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (883ms)
+		LoadAssemblies (798ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (324ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2195ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (1133ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.3 MB). Loaded Objects now: 4418.
+Memory consumption went from 119.1 MB to 117.8 MB.
+Total: 11.861300 ms (FindLiveObjects: 0.659000 ms CreateObjectMapping: 0.604100 ms MarkObjects: 8.123100 ms  DeleteObjects: 2.472000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/3D_Prefabs/Tall_Spout.prefab
-  artifactKey: Guid(1e069228e28dc3d4b80b7af7cef5588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Prefabs/Tall_Spout.prefab using Guid(1e069228e28dc3d4b80b7af7cef5588a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6df35028e40ec80300e4999bc8a39a') in 0.551190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.478 seconds
+Refreshing native plugins compatible for Editor in 13.82 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.019 seconds
+Domain Reload Profiling: 3499ms
+	BeginReloadAssembly (451ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (297ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2021ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (56ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1061ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 11.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.0 MB). Loaded Objects now: 4418.
+Memory consumption went from 121.1 MB to 120.1 MB.
+Total: 16.377400 ms (FindLiveObjects: 0.958800 ms CreateObjectMapping: 0.742100 ms MarkObjects: 12.010400 ms  DeleteObjects: 2.663200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/3D_Prefabs/Sprout.prefab
-  artifactKey: Guid(23c8d40d4600163468fac4a2b4a9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D_Prefabs/Sprout.prefab using Guid(23c8d40d4600163468fac4a2b4a9ac72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90102029770db2cdd397b63683ca569') in 0.389045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.579 seconds
+Refreshing native plugins compatible for Editor in 10.54 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.079 seconds
+Domain Reload Profiling: 3653ms
+	BeginReloadAssembly (443ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (888ms)
+		LoadAssemblies (811ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (280ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (1067ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 12.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.3 MB). Loaded Objects now: 4418.
+Memory consumption went from 123.0 MB to 121.7 MB.
+Total: 13.782000 ms (FindLiveObjects: 0.654400 ms CreateObjectMapping: 0.609400 ms MarkObjects: 9.719400 ms  DeleteObjects: 2.795100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 117.539649 seconds.
-  path: Assets/Maya/New Material.mat
-  artifactKey: Guid(360160918b7ac29489c8eb47d11f577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maya/New Material.mat using Guid(360160918b7ac29489c8eb47d11f577b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cd618c3ba4d86f2bb1625335a9e20f') in 0.223192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.439 seconds
+Refreshing native plugins compatible for Editor in 9.67 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.974 seconds
+Domain Reload Profiling: 3407ms
+	BeginReloadAssembly (446ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (93ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (764ms)
+		LoadAssemblies (718ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (262ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1299ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (1001ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.1 MB). Loaded Objects now: 4418.
+Memory consumption went from 124.9 MB to 123.8 MB.
+Total: 12.090300 ms (FindLiveObjects: 0.657900 ms CreateObjectMapping: 0.612900 ms MarkObjects: 8.222500 ms  DeleteObjects: 2.594100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Maya/textures.png
-  artifactKey: Guid(40def1205c0a39b4fb8d66672a49ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maya/textures.png using Guid(40def1205c0a39b4fb8d66672a49ca34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20da2ae023d0431295e8e9bc1b8b64ae') in 0.265434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  1.616 seconds
+Refreshing native plugins compatible for Editor in 13.66 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.799 seconds
+Domain Reload Profiling: 4411ms
+	BeginReloadAssembly (524ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (853ms)
+		LoadAssemblies (791ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (279ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2801ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (304ms)
+			ProcessInitializeOnLoadAttributes (1466ms)
+			ProcessInitializeOnLoadMethodAttributes (260ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 10.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3835 unused Assets / (1.2 MB). Loaded Objects now: 4418.
+Memory consumption went from 126.9 MB to 125.7 MB.
+Total: 14.317600 ms (FindLiveObjects: 0.838700 ms CreateObjectMapping: 0.752700 ms MarkObjects: 9.607400 ms  DeleteObjects: 3.115000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
