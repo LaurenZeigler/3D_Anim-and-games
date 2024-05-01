@@ -1,0 +1,5 @@
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/.utmp/Debug/595m546g/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/.utmp/Debug/595m546g/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/.utmp/Debug/595m546g/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/.utmp/Debug/595m546g/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/Wren/Desktop/backup/3D_Anim-and-games/unity_projects/HamsterHearth/.utmp/Debug/595m546g/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
