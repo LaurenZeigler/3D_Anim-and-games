@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1d5498fd4d6df4d801435e5129a8f6, type: 3}
+  m_Name: CropHandling
+  m_EditorClassIdentifier: 
+  crops:
+  - cropName: prototype
+    cropType: 0
+    plotSizeNeeded: 0
+    seedName: 
+    seedEdible: 0
+    cropEdible: 1
+    freshPerish: 0
+    cropDryable: 1
+    dryPerish: 0
+    cropMaxCarry: 50
+    cropCurrentCarry: 50
+    seedMaxCarry: 50
+    seedCurrentCarry: 20
+    cropMaxAmount: 0
+    cropCurrentAmount: 0
+    seedMaxAmount: 0
+    seedCurrentAmount: 0
