@@ -1,1 +1,0 @@
-selected_objects = cmds.ls(selection=True)
