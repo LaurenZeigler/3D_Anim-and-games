@@ -1,0 +1,25 @@
+Finalization of files still needs to be done for uploading to repo. 
+I would like to update these files to maya 2026 and a newer version of houdini if possible.
+
+Versions used prior to fall 2026:
+Maya:
+2024.2.0
+2025.3.1
+
+Unity:
+2022.3.1
+2023.2.1
+6000.0.68
+2023.2.1
+2022.3.15
+2021.3.29
+
+Houdini:
+21.0.596
+21.0.559
+19.5.773
+19.5.752
+19.5.733
+
+Zbrush:
+2024.0.2

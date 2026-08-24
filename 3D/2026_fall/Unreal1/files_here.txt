@@ -1,0 +1,1 @@
+will not contain Unreal Engine project itself, might need folder for notes and etc

@@ -1,0 +1,2 @@
+human_lowpoly:
+assignment for placing joints 
